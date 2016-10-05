@@ -5,4 +5,4 @@ def Maxlista(x):
         if x[z]>=maxlista:
             maxlista=x[z]
         z+=1
-    return maxlista
+    print('El máximo número de la lista es: ',maxlista)
