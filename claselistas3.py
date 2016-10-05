@@ -5,6 +5,8 @@ def delpar(x):
         
         if z%2!=0:
             y.append(x[z])
+        else:
+            print('Eliminando el elemento con indice: ', z)
         z+=1
         
     return y
